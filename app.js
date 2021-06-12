@@ -223,4 +223,8 @@ logFirstTwoBoxes(boxes) // O(2) 2 operations
 
   // 4 + 7n
 
-  
+  let shoppingList = ['cereal', 'cheese', 'ice',];
+
+  let lotto = [45, 12, 89, 64, 13];
+
+  let myCollection = [12, "dog", true, null, NaN];
