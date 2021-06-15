@@ -223,8 +223,35 @@ logFirstTwoBoxes(boxes) // O(2) 2 operations
 
   // 4 + 7n
 
-  let shoppingList = ['cereal', 'cheese', 'ice',];
+//   let shoppingList = ['cereal', 'cheese', 'ice',];
 
-  let lotto = [45, 12, 89, 64, 13];
+//   let lotto = [45, 12, 89, 64, 13];
 
-  let myCollection = [12, "dog", true, null, NaN];
+//   let myCollection = [12, "dog", true, null, NaN];
+
+let shoppingList = ['Cheddar Cheese', '2% milk'];
+shoppingList[1] = "whole milk";
+shoppingList[2] = "ice cream";
+
+shoppingList[shoppingList.length] = 'tomatoes';
+
+let fruits = ['apple', 'banana'];
+let veggies = ['asparagus', 'brussel sprouts'];
+let meats = ['steak', 'chicken leggs'];
+
+console.log(fruits.concat(veggies));
+
+let allFoods = fruits.concat(veggies, meats);
+
+
+let ingredients = ['fish', 'meat', 'cheese', 'shrimp', 'flour'];
+// ingredients.includes("milk"); to be placed in console
+
+if(ingredients.includes('flour')) {
+    console.log('I am gluten free, I cannot eat that!');//use to find and test
+}
+
+let animals = ['shark', 'salmon', 'whale', 'bear', 'lizard', 'tortoise'];
+let swimmers = animals.slice(0, 3);
+let mammals = animals.slice(2, 4);
+let reptiles = animals.slice(4, 6);
