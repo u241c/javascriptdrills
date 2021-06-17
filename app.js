@@ -256,5 +256,28 @@ let animals = ['shark', 'salmon', 'whale', 'bear', 'lizard', 'tortoise'];
 // let mammals = animals.slice(2, 4);
 // let reptiles = animals.slice(4, 6);
 animals.splice(1, 0, 'octopus');
-//june 17
 
+// working with sort
+let people = ['Mrs. Robinson', 'Angie', 'Jolene', 'Maggie May', 'Roxanne'];
+//people.sort()
+// (5) ["Angie", "Jolene", "Maggie May", "Mrs. Robinson", "Roxanne"] alphabetical
+
+// when working with arrays they are stored as reference types and variables or in memory, rather than the actual value being stored.
+
+// working with an array you can change the content with const
+const foods = ['milk']
+foods.push('chocolate')
+console.log(foods);
+// it works cause the reference stays the same
+
+//nested arrays
+const animalPairs = [
+    ['doe', 'buck'],
+    ['ewe', 'ram'],
+    ['peahen', 'peacock']
+];
+//animalPairs
+// (3) [Array(2), Array(2), Array(2)]
+// 0: (2) ["doe", "buck"]
+// 1: (2) ["ewe", "ram"]
+// 2: (2) ["peahen", "peacock"]
