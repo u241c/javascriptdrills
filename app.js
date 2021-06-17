@@ -256,4 +256,5 @@ let animals = ['shark', 'salmon', 'whale', 'bear', 'lizard', 'tortoise'];
 // let mammals = animals.slice(2, 4);
 // let reptiles = animals.slice(4, 6);
 animals.splice(1, 0, 'octopus');
+//june 17
 
