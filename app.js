@@ -281,3 +281,49 @@ const animalPairs = [
 // 0: (2) ["doe", "buck"]
 // 1: (2) ["ewe", "ram"]
 // 2: (2) ["peahen", "peacock"]
+
+// Key: value pair objects are collections of properties. 
+const fitbitData = {
+    totalSteps: 308727,
+    tolalMiles: 211.7,
+    avgCalorieBurn: 5755,
+    workoutsThisWeek: "5 of 7",
+    avgGoodSleep: '2:13'
+}; // {} object literal
+
+// accessing Object Properties
+const numbers = {
+    100: 'one hundred',
+    16: 'sixteen',
+}
+const palette = {
+    red: '#eb4d4b',
+    yellow: '#f9ca24',
+    blue: '#3033bb',
+};
+let mysteryColor = 'yellow';
+// palette['mysteryColor']
+// undefined
+// palette.mysteryColor
+// undefined
+// palette[mysteryColor]
+// "#f9ca24"
+
+//nested arrays
+const student = {
+    firstName: 'joe',
+    lastName: 'mama',
+    strengths: ["music", 'Art'],
+    exams : {
+        midterm : 92,
+        final : 88,
+    }
+};
+
+let nums = [1, 2, 3];
+let mystery = [1, 2, 3];
+
+// nums and myster don't store the array, but a reference. they both have different reference numbers. nums === mystery false unless I add
+
+let moreNums = nums; // nums === moreNums true || nums == moreNums true
+
