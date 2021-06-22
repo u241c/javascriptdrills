@@ -327,3 +327,76 @@ let mystery = [1, 2, 3];
 
 let moreNums = nums; // nums === moreNums true || nums == moreNums true
 
+//all about loops!
+
+// for(let i = 1; i <= 10; i ++){
+// console.log('Hello:', i);
+// }
+for(let i = 1; i <= 10; i += 3){
+console.log('Hello:', i);
+}
+// in the console
+// Hello: 1
+// app.js:336 Hello: 4
+// app.js:336 Hello: 7
+// app.js:336 Hello: 10
+
+for(let num = 1; num <= 20; num++){
+    console.log(`${num}*${num}=${num*num}`);
+}
+for(let i = 200; i >= 0; i-=25){
+    console.log(i);
+}
+console.log('After the loop!');
+
+// dont run infinate loop
+// for(let i = 1; i !== 20; i += 2){
+//     console.log(i);
+// }
+// 1
+// 3
+// 5
+// 7 we will never meet 20 so it will keep looping over and over Crash!
+
+const examScores = [98, 77, 84, 91, 57, 66];
+for (let i = 0; i < examScores.length; i++){
+    console.log(i, examScores[i]);
+}
+
+const word = 'stressed';
+for(let i = word.length - 1; i >= 0; i--){
+    console.log(word[i]);
+}
+// nested loops
+// for(let i = 1; i <= 10; i++){
+//     console.log('outer loop:', i);
+//     for(let j = 10; j >= 0; j -= 2){
+//         console.log(' inner loop', j);
+//     }
+// }
+// we need two loops to access each element because we have two arrays that are nested
+const gameBoard = [
+    [4, 32, 8, 4],
+    [64, 8, 32, 2],
+    [8, 32, 16, 4],
+    [2, 8, 4, 2]
+];
+
+let totalScore = 0;
+for(let i = 0; i < gameBoard.length; i++){
+    let row = gameBoard[i];
+    for (let j = 0; j < row.length; j++){
+        totalScore += row[j];
+    }
+}
+// while loops
+const target = Math.floor(Math.random() * 10);
+let guess = Math.floor(Math.random() * 10);
+while(guess !== target){
+    console.log(`Target: ${target} Guess: ${guess}`);
+    guess = Math.floor(Math.random() * 10);
+}
+console.log(`Target: ${target} Guess: ${guess}`);
+console.log(`congrats you win!!`);
+
+
