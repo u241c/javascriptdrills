@@ -35,8 +35,9 @@ if(userScore >= highScore){
 else{
     console.log(`Good Game. Your score of ${userScore} did not beat the high score of ${highScore}`);
 }
+//
 
-let password = 'hellokitty';
+let password = 'hello kitty';
 
 if(password.length >= 6){
     if(password.indexOf(' ') === -1){
@@ -47,8 +48,9 @@ if(password.length >= 6){
     }
 }
 else{
-    console.log('Password must be longer')
+    console.log('Password must be longer');
 }
+//
 
 let loggedInUser =' akdjf';
 
@@ -390,13 +392,26 @@ for(let i = 0; i < gameBoard.length; i++){
     }
 }
 // while loops
-const target = Math.floor(Math.random() * 10);
-let guess = Math.floor(Math.random() * 10);
-while(guess !== target){
-    console.log(`Target: ${target} Guess: ${guess}`);
-    guess = Math.floor(Math.random() * 10);
+// const target = Math.floor(Math.random() * 10);
+// let guess = Math.floor(Math.random() * 10);
+// while(guess !== target){
+//     console.log(`Target: ${target} Guess: ${guess}`);
+//     guess = Math.floor(Math.random() * 10);
+// }
+// console.log(`Target: ${target} Guess: ${guess}`);
+// console.log(`congrats you win!!`);
+
+
+// let password = 'hello kitty';
+
+if(password.length >= 6){
+    if(password.indexOf(' ') === -1){
+        console.log("Valid Password");
+    }
+    else {
+        console.log('Password is long enough, but cannot contain spaces');
+    }
 }
-console.log(`Target: ${target} Guess: ${guess}`);
-console.log(`congrats you win!!`);
-
-
+else{
+    console.log('Password must be longer');
+}
