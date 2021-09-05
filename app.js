@@ -1,12 +1,12 @@
-if (1 !== 1){
-    console.log("It's True!")
-}
+// if (1 !== 1){
+//     console.log("It's True!")
+// }
 
 
-let rating = 2;
-if(rating !== 3) {
-    console.log('you are a superstar!');
-}
+// let rating = 2;
+// if(rating !== 3) {
+//     console.log('you are a superstar!');
+// }
 
 // let num = 37;
 
@@ -14,49 +14,49 @@ if(rating !== 3) {
 //     console.log('odd number!')
 // }
 
-let frank = 481;
-if(frank === 48){
-    console.log("He is the greatest!")
-}else if(frank < 48){
-    console.log("Hes awsome!")
-}else if(frank > 48){
-    console.log("Say What!")
-}else{
-    console.log('Invalid Age!')
-}
+// let frank = 481;
+// if(frank === 48){
+//     console.log("He is the greatest!")
+// }else if(frank < 48){
+//     console.log("Hes awsome!")
+// }else if(frank > 48){
+//     console.log("Say What!")
+// }else{
+//     console.log('Invalid Age!')
+// }
 
-let highScore = 1430;
-let userScore = 1601;
+// let highScore = 1430;
+// let userScore = 1601;
 
-if(userScore >= highScore){
-    console.log(`Congrats, you have the new high score of ${userScore}`);
-    highScore = userScore;
-}
-else{
-    console.log(`Good Game. Your score of ${userScore} did not beat the high score of ${highScore}`);
-}
+// if(userScore >= highScore){
+//     console.log(`Congrats, you have the new high score of ${userScore}`);
+//     highScore = userScore;
+// }
+// else{
+//     console.log(`Good Game. Your score of ${userScore} did not beat the high score of ${highScore}`);
+// }
 //
 
-let password = 'hello kitty';
+// let password = 'hello kitty';
 
-if(password.length >= 6){
-    if(password.indexOf(' ') === -1){
-        console.log("Valid Password");
-    }
-    else {
-        console.log('Password is long enough, but cannot contain spaces');
-    }
-}
-else{
-    console.log('Password must be longer');
-}
+// if(password.length >= 6){
+//     if(password.indexOf(' ') === -1){
+//         console.log("Valid Password");
+//     }
+//     else {
+//         console.log('Password is long enough, but cannot contain spaces');
+//     }
+// }
+// else{
+//     console.log('Password must be longer');
+// }
 //
 
-let loggedInUser =' akdjf';
+// let loggedInUser =' akdjf';
 
-if(loggedInUser) {
-    console.log('Get out of here');
-}
+// if(loggedInUser) {
+//     console.log('Get out of here');
+// }
 
 // the switch statement
 let day = 17;
@@ -86,51 +86,51 @@ let day = 17;
 //     console.log("Invalid day");
 // }
 
-switch (day){
-    case 1:
-        console.log('monday');
-        break;  
-    case 2:
-        console.log('tueday');
-        break;
-    case 3:
-        console.log('wednesday');
-        break;
-    case 4:
-        console.log('thursday');
-        break;
-    case 5:
-        console.log('friday');
-        break;
-    case 6:
-        console.log('saturday');
-        break;
-    case 7:
-        console.log('sunday');
-        break;
-    default:
-        console.log('Invalid day')    
-}
-let emoji = "eggplant";
-    switch (emoji){
-        case "sad Face":
-        case "Happy Face":
-            console.log("yellow");
-            break;
-        case "eggplant":
-            console.log("purple");
-            break;
-        case "lips":    
-        case "Heart":
-            console.log("red");
-            break;
-    }
+// switch (day){
+//     case 1:
+//         console.log('monday');
+//         break;  
+//     case 2:
+//         console.log('tueday');
+//         break;
+//     case 3:
+//         console.log('wednesday');
+//         break;
+//     case 4:
+//         console.log('thursday');
+//         break;
+//     case 5:
+//         console.log('friday');
+//         break;
+//     case 6:
+//         console.log('saturday');
+//         break;
+//     case 7:
+//         console.log('sunday');
+//         break;
+//     default:
+//         console.log('Invalid day')    
+// }
+// let emoji = "eggplant";
+//     switch (emoji){
+//         case "sad Face":
+//         case "Happy Face":
+//             console.log("yellow");
+//             break;
+//         case "eggplant":
+//             console.log("purple");
+//             break;
+//         case "lips":    
+//         case "Heart":
+//             console.log("red");
+//             break;
+//     }
 
     //Ternary Operators
     // condition ? expIfTrue: expIfFalse
     // only works with a simple yes || no && if && else
 
-let num = 2;
+// let num = 2;
 // if(num === 7)  {
 //     console.log('lucky!')
 // } 
@@ -139,7 +139,7 @@ let num = 2;
 // } 
 // num === 7 ? console.log('lucky!') :  console.log('bad!')
 
-let status = "online";
+// let status = "online";
 // let color;
 // if(status === "offline"){
 //     console.log("red")
@@ -148,7 +148,7 @@ let status = "online";
 //     console.log("green");
 // }
 
-let color = status === "offline" ? console.log("red") : console.log("green");
+// let color = status === "offline" ? console.log("red") : console.log("green");
 
 1.1// Big O and Scalability Beginnings how long an alogo takes to run
 // const nemo = ['nemo'];
@@ -184,12 +184,12 @@ let color = status === "offline" ? console.log("red") : console.log("green");
 
 
 1.3 // in terms of Scalability O(1) - constant time - flat line
-const boxes = [0,1,2,3,4,5];
-function logFirstTwoBoxes(boxes){
-    console.log(boxes[0]); //O(1) # of operations
-    console.log(boxes[1]); //O(1) # of operations
-}
-logFirstTwoBoxes(boxes) // O(2) 2 operations
+// const boxes = [0,1,2,3,4,5];
+// function logFirstTwoBoxes(boxes){
+//     console.log(boxes[0]); //O(1) # of operations
+//     console.log(boxes[1]); //O(1) # of operations
+// }
+// logFirstTwoBoxes(boxes) // O(2) 2 operations
 
 // Big O excersize
 // function funChallenge(input) {
@@ -231,53 +231,53 @@ logFirstTwoBoxes(boxes) // O(2) 2 operations
 
 //   let myCollection = [12, "dog", true, null, NaN];
 
-let shoppingList = ['Cheddar Cheese', '2% milk'];
-shoppingList[1] = "whole milk";
-shoppingList[2] = "ice cream";
+// let shoppingList = ['Cheddar Cheese', '2% milk'];
+// shoppingList[1] = "whole milk";
+// shoppingList[2] = "ice cream";
 
-shoppingList[shoppingList.length] = 'tomatoes';
+// shoppingList[shoppingList.length] = 'tomatoes';
 
-let fruits = ['apple', 'banana'];
-let veggies = ['asparagus', 'brussel sprouts'];
-let meats = ['steak', 'chicken leggs'];
+// let fruits = ['apple', 'banana'];
+// let veggies = ['asparagus', 'brussel sprouts'];
+// let meats = ['steak', 'chicken leggs'];
 
-console.log(fruits.concat(veggies));
+// console.log(fruits.concat(veggies));
 
-let allFoods = fruits.concat(veggies, meats);
+// let allFoods = fruits.concat(veggies, meats);
 
 
-let ingredients = ['fish', 'meat', 'cheese', 'shrimp', 'flour'];
+// let ingredients = ['fish', 'meat', 'cheese', 'shrimp', 'flour'];
 // ingredients.includes("milk"); to be placed in console
 
-if(ingredients.includes('flour')) {
-    console.log('I am gluten free, I cannot eat that!');//use to find and test
-}
+// if(ingredients.includes('flour')) {
+//     console.log('I am gluten free, I cannot eat that!');//use to find and test
+// }
 
-let animals = ['shark', 'salmon', 'whale', 'bear', 'lizard', 'tortoise'];
+// let animals = ['shark', 'salmon', 'whale', 'bear', 'lizard', 'tortoise'];
 // let swimmers = animals.slice(0, 3);
 // let mammals = animals.slice(2, 4);
 // let reptiles = animals.slice(4, 6);
-animals.splice(1, 0, 'octopus');
+// animals.splice(1, 0, 'octopus');
 
 // working with sort
-let people = ['Mrs. Robinson', 'Angie', 'Jolene', 'Maggie May', 'Roxanne'];
+// let people = ['Mrs. Robinson', 'Angie', 'Jolene', 'Maggie May', 'Roxanne'];
 //people.sort()
 // (5) ["Angie", "Jolene", "Maggie May", "Mrs. Robinson", "Roxanne"] alphabetical
 
 // when working with arrays they are stored as reference types and variables or in memory, rather than the actual value being stored.
 
 // working with an array you can change the content with const
-const foods = ['milk']
-foods.push('chocolate')
-console.log(foods);
+// const foods = ['milk']
+// foods.push('chocolate')
+// console.log(foods);
 // it works cause the reference stays the same
 
 //nested arrays
-const animalPairs = [
-    ['doe', 'buck'],
-    ['ewe', 'ram'],
-    ['peahen', 'peacock']
-];
+// const animalPairs = [
+//     ['doe', 'buck'],
+//     ['ewe', 'ram'],
+//     ['peahen', 'peacock']
+// ];
 //animalPairs
 // (3) [Array(2), Array(2), Array(2)]
 // 0: (2) ["doe", "buck"]
@@ -285,25 +285,25 @@ const animalPairs = [
 // 2: (2) ["peahen", "peacock"]
 
 // Key: value pair objects are collections of properties. 
-const fitbitData = {
-    totalSteps: 308727,
-    tolalMiles: 211.7,
-    avgCalorieBurn: 5755,
-    workoutsThisWeek: "5 of 7",
-    avgGoodSleep: '2:13'
-}; // {} object literal
+// const fitbitData = {
+//     totalSteps: 308727,
+//     tolalMiles: 211.7,
+//     avgCalorieBurn: 5755,
+//     workoutsThisWeek: "5 of 7",
+//     avgGoodSleep: '2:13'
+// }; // {} object literal
 
 // accessing Object Properties
-const numbers = {
-    100: 'one hundred',
-    16: 'sixteen',
-}
-const palette = {
-    red: '#eb4d4b',
-    yellow: '#f9ca24',
-    blue: '#3033bb',
-};
-let mysteryColor = 'yellow';
+// const numbers = {
+//     100: 'one hundred',
+//     16: 'sixteen',
+// }
+// const palette = {
+//     red: '#eb4d4b',
+//     yellow: '#f9ca24',
+//     blue: '#3033bb',
+// };
+// let mysteryColor = 'yellow';
 // palette['mysteryColor']
 // undefined
 // palette.mysteryColor
@@ -312,44 +312,44 @@ let mysteryColor = 'yellow';
 // "#f9ca24"
 
 //nested arrays
-const student = {
-    firstName: 'joe',
-    lastName: 'mama',
-    strengths: ["music", 'Art'],
-    exams : {
-        midterm : 92,
-        final : 88,
-    }
-};
+// const student = {
+//     firstName: 'joe',
+//     lastName: 'mama',
+//     strengths: ["music", 'Art'],
+//     exams : {
+//         midterm : 92,
+//         final : 88,
+//     }
+// };
 
-let nums = [1, 2, 3];
-let mystery = [1, 2, 3];
+// let nums = [1, 2, 3];
+// let mystery = [1, 2, 3];
 
 // nums and myster don't store the array, but a reference. they both have different reference numbers. nums === mystery false unless I add
 
-let moreNums = nums; // nums === moreNums true || nums == moreNums true
+// let moreNums = nums; // nums === moreNums true || nums == moreNums true
 
 //all about loops!
 
 // for(let i = 1; i <= 10; i ++){
 // console.log('Hello:', i);
 // }
-for(let i = 1; i <= 10; i += 3){
-console.log('Hello:', i);
-}
+// for(let i = 1; i <= 10; i += 3){
+// console.log('Hello:', i);
+// }
 // in the console
 // Hello: 1
 // app.js:336 Hello: 4
 // app.js:336 Hello: 7
 // app.js:336 Hello: 10
 
-for(let num = 1; num <= 20; num++){
-    console.log(`${num}*${num}=${num*num}`);
-}
-for(let i = 200; i >= 0; i-=25){
-    console.log(i);
-}
-console.log('After the loop!');
+// for(let num = 1; num <= 20; num++){
+//     console.log(`${num}*${num}=${num*num}`);
+// }
+// for(let i = 200; i >= 0; i-=25){
+//     console.log(i);
+// }
+// console.log('After the loop!');
 
 // dont run infinate loop
 // for(let i = 1; i !== 20; i += 2){
@@ -360,15 +360,15 @@ console.log('After the loop!');
 // 5
 // 7 we will never meet 20 so it will keep looping over and over Crash!
 
-const examScores = [98, 77, 84, 91, 57, 66];
-for (let i = 0; i < examScores.length; i++){
-    console.log(i, examScores[i]);
-}
+// const examScores = [98, 77, 84, 91, 57, 66];
+// for (let i = 0; i < examScores.length; i++){
+//     console.log(i, examScores[i]);
+// }
 
-const word = 'stressed';
-for(let i = word.length - 1; i >= 0; i--){
-    console.log(word[i]);
-}
+// const word = 'stressed';
+// for(let i = word.length - 1; i >= 0; i--){
+//     console.log(word[i]);
+// }
 // nested loops
 // for(let i = 1; i <= 10; i++){
 //     console.log('outer loop:', i);
@@ -377,20 +377,20 @@ for(let i = word.length - 1; i >= 0; i--){
 //     }
 // }
 // we need two loops to access each element because we have two arrays that are nested
-const gameBoard = [
-    [4, 32, 8, 4],
-    [64, 8, 32, 2],
-    [8, 32, 16, 4],
-    [2, 8, 4, 2]
-];
+// const gameBoard = [
+//     [4, 32, 8, 4],
+//     [64, 8, 32, 2],
+//     [8, 32, 16, 4],
+//     [2, 8, 4, 2]
+// ];
 
-let totalScore = 0;
-for(let i = 0; i < gameBoard.length; i++){
-    let row = gameBoard[i];
-    for (let j = 0; j < row.length; j++){
-        totalScore += row[j];
-    }
-}
+// let totalScore = 0;
+// for(let i = 0; i < gameBoard.length; i++){
+//     let row = gameBoard[i];
+//     for (let j = 0; j < row.length; j++){
+//         totalScore += row[j];
+//     }
+
 // while loops
 // const target = Math.floor(Math.random() * 10);
 // let guess = Math.floor(Math.random() * 10);
@@ -402,16 +402,101 @@ for(let i = 0; i < gameBoard.length; i++){
 // console.log(`congrats you win!!`);
 
 
-// let password = 'hello kitty';
+// let password = 'kitty';
 
-if(password.length >= 6){
-    if(password.indexOf(' ') === -1){
-        console.log("Valid Password");
-    }
-    else {
-        console.log('Password is long enough, but cannot contain spaces');
-    }
+// if(password.length >= 6){
+//     if(password.indexOf(' ') === -1){
+//         console.log("Valid Password");
+//     }
+//     else {
+//         console.log('Password is long enough, but cannot contain spaces');
+//     }
+// }
+// else{
+//     console.log('Password must be longer');
+// }
+
+// let password = "hello kitty";
+
+// if(password.length >= 6){
+//     if(password.indexOf(' ') === -1){
+//         console.log('Valid Password!')
+//     }
+//     else {
+//         console.log('Password is long enough, but cannot contain spaces!');
+//     }
+// }
+// else {
+//     console.log('Password must be longer');
+// }
+
+// let mystery = 18;
+
+// if (mystery){
+//     console.log('truthy');
+// }
+// else {
+//     console.log('falsy');
+// }
+
+// let loggInUser = null;
+// if(loggInUser){
+//     console.log('You are logged in!');
+// }
+// else {
+//     console.log('Please log in!');
+// }
+
+let homework = "science,math";
+
+if(homework.length >= 12 && homework.indexOf(' ') === -1){
+    console.log('Homework Tonight!');
 }
 else{
-    console.log('Password must be longer');
+    console.log('Easy Night tonight!');
 }
+let money = 'Eighty-thousandanually';
+
+if(money.length >= 22 && money.indexOf (' ')=== -1){
+    console.log('Take it or leave it!')
+}
+else{
+    console.log('Keep on a looking!')
+}
+let loggedInUser = "";
+if(!loggedInUser){
+    console.log('get out of here!')
+}
+else{
+    console.log("ralph mouth")
+}
+ 
+let cellPhone = 's9';
+if(cellPhone !== 's9' && cellPhone !== 'Blu'){
+    console.log("We only carry the S9plus.")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
