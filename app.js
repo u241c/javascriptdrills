@@ -478,9 +478,32 @@ if(cellPhone !== 's9' && cellPhone !== 'Blu'){
 
 
 
+// for(let i = 1; i <= 10; i++){
+//     console.log("PISSED!", i)
+// }
+// for(let num = 1; num <= 20; num++){
+//     console.log(`${num}*${num} = ${num * num}`)
+// }
+
+for(let i = 200; i >= 0; i-=25){
+    console.log("Does it work!", i)
+}
+console.log('It does not work!')
 
 
 
+
+
+
+for (let i = 0; i <= 5; i++){
+    console.log(i);
+}
+
+let j = 0;
+while (j <= 5){
+    console.log(j);
+    j++;
+}
 
 
 
