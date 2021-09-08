@@ -485,26 +485,60 @@ if(cellPhone !== 's9' && cellPhone !== 'Blu'){
 //     console.log(`${num}*${num} = ${num * num}`)
 // }
 
-for(let i = 200; i >= 0; i-=25){
-    console.log("Does it work!", i)
+// for(let i = 200; i >= 0; i-=25){
+//     console.log("Does it work!", i)
+// }
+// console.log('It does not work!')
+
+
+
+
+
+
+// for (let i = 0; i <= 5; i++){
+//     console.log(i);
+// }
+
+// let j = 0;
+// while (j <= 5){
+//     console.log(j);
+//     j++;
+// }
+
+
+// const target = Math.floor(Math.random() * 10);
+// let guess = Math.floor(Math.random() * 10);
+// while(guess !== target){
+//     console.log(guess);
+//     guess = Math.floor(Math.random() * 10);
+// }
+
+// console.log(`Target: ${target} Guess: ${guess}`)
+// ;
+
+
+const movieReviews = {
+    Arrival                 :9.5,
+    Alien                   :9,
+    Amelie                  :8,
+    "In Bruges"             :9,
+    Amadeus                 :10,
+    "Kill Bill"             :8,
+    "Little Miss Sunshine"  :8.5,
+    Coraline                :7.5
+};
+
+for (let movie of Object.keys(movieReviews)){
+    console.log(movie, movieReviews[movie]);
 }
-console.log('It does not work!')
+const ratings = Object.values(movieReviews);
+let total = 0;
+for(let r of ratings){
+    total += r ;
 
-
-
-
-
-
-for (let i = 0; i <= 5; i++){
-    console.log(i);
 }
-
-let j = 0;
-while (j <= 5){
-    console.log(j);
-    j++;
-}
-
+let avg = total / ratings.length;
+console.log(avg);
 
 
 
