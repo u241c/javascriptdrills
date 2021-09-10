@@ -564,10 +564,33 @@ function square(num){
 function sum(x, y){
     console.log(x+y);
 }
+const scream = 'hello'.toUpperCase();
+console.log(scream)
 
+function add(x, y){
+    return x+y;
+}
 
+function square(x){
+    return x * x;
+    console.log('all done!');
+}
+function containsPurple(arr){
+    for(let color of arr){
+        if(color === 'purple' || color === 'magenta'){
+            return true;
+        }
+        return true;
+    }
+}
 
-
+function isValidPassword(password, username){
+    if(password.indexOf !== (' ') !== -1 && password.indexOf(username) !== -1){
+        return false
+    }
+    if(password.length < 8);
+    return false
+}
 
 
 
