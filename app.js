@@ -517,28 +517,28 @@ if(cellPhone !== 's9' && cellPhone !== 'Blu'){
 // ;
 
 
-const movieReviews = {
-    Arrival                 :9.5,
-    Alien                   :9,
-    Amelie                  :8,
-    "In Bruges"             :9,
-    Amadeus                 :10,
-    "Kill Bill"             :8,
-    "Little Miss Sunshine"  :8.5,
-    Coraline                :7.5
-};
+// const movieReviews = {
+//     Arrival                 :9.5,
+//     Alien                   :9,
+//     Amelie                  :8,
+//     "In Bruges"             :9,
+//     Amadeus                 :10,
+//     "Kill Bill"             :8,
+//     "Little Miss Sunshine"  :8.5,
+//     Coraline                :7.5
+// };
 
-for (let movie of Object.keys(movieReviews)){
-    console.log(movie, movieReviews[movie]);
-}
-const ratings = Object.values(movieReviews);
-let total = 0;
-for(let r of ratings){
-    total += r ;
+// for (let movie of Object.keys(movieReviews)){
+//     console.log(movie, movieReviews[movie]);
+// }
+// const ratings = Object.values(movieReviews);
+// let total = 0;
+// for(let r of ratings){
+//     total += r ;
 
-}
-let avg = total / ratings.length;
-console.log(avg);
+// }
+// let avg = total / ratings.length;
+// console.log(avg);
 
 
 
@@ -591,6 +591,27 @@ function isValidPassword(password, username){
     if(password.length < 8);
     return false
 }
+
+function avg(arr){
+    let total = 0;
+    for(let num of arr){
+        total += num;
+    }
+    return total / arr.length;
+    
+}
+
+function isPangram(sentence){
+    let lowerCased = sentence.toLowerCase();
+    for(let char of 'abcdefghijklmnopqrstuvwxyz'){
+        if(lowerCased.indexOf(char) === -1){
+            return false;
+        }
+    }
+    return true;
+}
+    
+
 
 
 
