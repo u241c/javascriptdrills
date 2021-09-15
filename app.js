@@ -561,15 +561,15 @@ function square(num){
     console.log(num * num);
 }
 
-function sum(x, y){
-    console.log(x+y);
-}
-const scream = 'hello'.toUpperCase();
-console.log(scream)
+// function sum(x, y){
+//     console.log(x+y);
+// }
+// const scream = 'hello'.toUpperCase();
+// console.log(scream)
 
-function add(x, y){
-    return x+y;
-}
+// function add(x, y){
+//     return x+y;
+// }
 
 function square(x){
     return x * x;
@@ -622,6 +622,19 @@ function doubleArr(arr){
 }
 
 
+function add(x,y){
+    return x + y;
+}
+
+//functions are objects anomous function expression
+const sum = function (x, y){
+    return x + y;
+}
+
+//functions are objects   named function expression
+const product = function multiply (x, y){
+    return x + y;
+}
 
 
 
