@@ -571,74 +571,115 @@ function square(num){
 //     return x+y;
 // }
 
-function square(x){
-    return x * x;
-    console.log('all done!');
-}
-function containsPurple(arr){
-    for(let color of arr){
-        if(color === 'purple' || color === 'magenta'){
-            return true;
-        }
-        return true;
-    }
-}
+// function square(x){
+//     return x * x;
+//     console.log('all done!');
+// }
+// function containsPurple(arr){
+//     for(let color of arr){
+//         if(color === 'purple' || color === 'magenta'){
+//             return true;
+//         }
+//         return true;
+//     }
+// }
 
-function isValidPassword(password, username){
-    if(password.indexOf !== (' ') !== -1 && password.indexOf(username) !== -1){
-        return false
-    }
-    if(password.length < 8);
-    return false
-}
+// function isValidPassword(password, username){
+//     if(password.indexOf !== (' ') !== -1 && password.indexOf(username) !== -1){
+//         return false
+//     }
+//     if(password.length < 8);
+//     return false
+// }
 
-function avg(arr){
-    let total = 0;
-    for(let num of arr){
-        total += num;
-    }
-    return total / arr.length;
+// function avg(arr){
+//     let total = 0;
+//     for(let num of arr){
+//         total += num;
+//     }
+//     return total / arr.length;
     
-}
+// }
 
-function isPangram(sentence){
-    let lowerCased = sentence.toLowerCase();
-    for(let char of 'abcdefghijklmnopqrstuvwxyz'){
-        if(lowerCased.indexOf(char) === -1){
-            return false;
-        }
-    }
-    return true;
-}
+// function isPangram(sentence){
+//     let lowerCased = sentence.toLowerCase();
+//     for(let char of 'abcdefghijklmnopqrstuvwxyz'){
+//         if(lowerCased.indexOf(char) === -1){
+//             return false;
+//         }
+//     }
+//     return true;
+// }
     
-function doubleArr(arr){
-    const result = [];
-    for(let num of arr){
-    var double = num * 2;
-    result.push(double);
+// function doubleArr(arr){
+//     const result = [];
+//     for(let num of arr){
+//     var double = num * 2;
+//     result.push(double);
+//     }
+//     console.log(double);
+//     return result;
+// }
+
+
+// function add(x,y){
+//     return x + y;
+// }
+
+// //functions are objects anomous function expression
+// const sum = function (x, y){
+//     return x + y;
+// }
+
+// //functions are objects   named function expression
+// const product = function multiply (x, y){
+//     return x + y;
+// }
+
+//function statment
+function add(x, y){
+    return x + y;
+}
+
+//function expression
+const subtract = function(x, y){
+   return x-y;
+}
+
+function multiply(x, y){
+    return x * y;
+}
+
+const divide = function(x, y){
+    return x / y 
+} 
+
+
+//4 functions stored in an array
+const operations = [add,subtract,multiply,divide];
+
+for (let func of operations){
+    let result = func(30, 5);
+    console.log(result);
+}
+
+function callThreeTimes(f){
+    f();
+    f();
+    f();
+}
+
+function cry(){
+    console.log("BOO HOO I'm so sad!")
+}
+
+function repeatNTimes(action, num){
+    for(let i = 0; i < num; i++){
+        action();
     }
-    console.log(double);
-    return result;
 }
 
-
-function add(x,y){
-    return x + y;
-}
-
-//functions are objects anomous function expression
-const sum = function (x, y){
-    return x + y;
-}
-
-//functions are objects   named function expression
-const product = function multiply (x, y){
-    return x + y;
-}
-
-
-
-
+repeatNTimes(cry, 13);
 
 
 
