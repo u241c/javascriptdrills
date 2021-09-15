@@ -611,7 +611,15 @@ function isPangram(sentence){
     return true;
 }
     
-
+function doubleArr(arr){
+    const result = [];
+    for(let num of arr){
+    var double = num * 2;
+    result.push(double);
+    }
+    console.log(double);
+    return result;
+}
 
 
 
