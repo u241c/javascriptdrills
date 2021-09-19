@@ -636,52 +636,80 @@ function square(num){
 //     return x + y;
 // }
 
-//function statment
-function add(x, y){
-    return x + y;
-}
+// //function statment
+// function add(x, y){
+//     return x + y;
+// }
 
-//function expression
-const subtract = function(x, y){
-   return x-y;
-}
+// //function expression
+// const subtract = function(x, y){
+//    return x-y;
+// }
 
-function multiply(x, y){
-    return x * y;
-}
+// function multiply(x, y){
+//     return x * y;
+// }
 
-const divide = function(x, y){
-    return x / y 
-} 
+// const divide = function(x, y){
+//     return x / y 
+// } 
 
 
-//4 functions stored in an array
-const operations = [add,subtract,multiply,divide];
+// //4 functions stored in an array
+// const operations = [add,subtract,multiply,divide];
 
-for (let func of operations){
-    let result = func(30, 5);
-    console.log(result);
-}
+// for (let func of operations){
+//     let result = func(30, 5);
+//     console.log(result);
+// }
 
-function callThreeTimes(f){
-    f();
-    f();
-    f();
-}
+// function callThreeTimes(f){
+//     f();
+//     f();
+//     f();
+// }
 
-function cry(){
-    console.log("BOO HOO I'm so sad!")
-}
+// function cry(){
+//     console.log("BOO HOO I'm so sad!")
+// }
 
-function repeatNTimes(action, num){
-    for(let i = 0; i < num; i++){
-        action();
+// function repeatNTimes(action, num){
+//     for(let i = 0; i < num; i++){
+//         action();
+//     }
+// }
+
+// repeatNTimes(cry, 13);
+
+
+
+// const triple = multiplyBy(3);
+// triple(5);
+
+// const double = multiplyBy(2);
+// double(8);
+ 
+// function multiplyBy(num){
+//     return function (x){
+//         return x * num;
+//     }
+// }
+//  const triple = multiplyBy(3);
+//  const double = multiplyBy(2);
+
+// function makeBetweenFunc(x, y){
+//     return function (num){
+//         return num >= x && num <= y;
+//     }
+// }
+// const isChild = makeBetweenFunc(0, 18);
+// const isInNinties = makeBetweenFunc(1990, 2000);
+
+function makeLessThan(num){
+    return function (x){
+        return x < num;
     }
 }
-
-repeatNTimes(cry, 13);
-
-
 
 
 
