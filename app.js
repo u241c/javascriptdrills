@@ -447,34 +447,34 @@ let day = 17;
 //     console.log('Please log in!');
 // }
 
-let homework = "science,math";
+// let homework = "science,math";
 
-if(homework.length >= 12 && homework.indexOf(' ') === -1){
-    console.log('Homework Tonight!');
-}
-else{
-    console.log('Easy Night tonight!');
-}
-let money = 'Eighty-thousandanually';
+// if(homework.length >= 12 && homework.indexOf(' ') === -1){
+//     console.log('Homework Tonight!');
+// }
+// else{
+//     console.log('Easy Night tonight!');
+// }
+// let money = 'Eighty-thousandanually';
 
-if(money.length >= 22 && money.indexOf (' ')=== -1){
-    console.log('Take it or leave it!')
-}
-else{
-    console.log('Keep on a looking!')
-}
-let loggedInUser = "";
-if(!loggedInUser){
-    console.log('get out of here!')
-}
-else{
-    console.log("ralph mouth")
-}
+// if(money.length >= 22 && money.indexOf (' ')=== -1){
+//     console.log('Take it or leave it!')
+// }
+// else{
+//     console.log('Keep on a looking!')
+// }
+// let loggedInUser = "";
+// if(!loggedInUser){
+//     console.log('get out of here!')
+// }
+// else{
+//     console.log("ralph mouth")
+// }
  
-let cellPhone = 's9';
-if(cellPhone !== 's9' && cellPhone !== 'Blu'){
-    console.log("We only carry the S9plus.")
-}
+// let cellPhone = 's9';
+// if(cellPhone !== 's9' && cellPhone !== 'Blu'){
+//     console.log("We only carry the S9plus.")
+// }
 
 
 
@@ -557,9 +557,9 @@ if(cellPhone !== 's9' && cellPhone !== 'Blu'){
 //     rollDie();
 //
 
-function square(num){
-    console.log(num * num);
-}
+// function square(num){
+//     console.log(num * num);
+// }
 
 // function sum(x, y){
 //     console.log(x+y);
@@ -705,14 +705,36 @@ function square(num){
 // const isChild = makeBetweenFunc(0, 18);
 // const isInNinties = makeBetweenFunc(1990, 2000);
 
-function makeLessThan(num){
-    return function (x){
-        return x < num;
-    }
+// function makeLessThan(a, b){
+//     return function (num){
+//         return num >= a && num <= b;
+//     }
+// }
+
+// const isAdultAge = makeLessThan(0, 21);
+// const isAge = makeLessThan(5, 18);
+
+// function notEqualTo (num){
+//     return function(x) {
+//         return x === num; 
+//     }
+// }
+// const throughPut  = notEqualTo(80);
+
+// function makeLessThan(a){
+//         return function (num){
+//             return a < num;
+//         }
+//     }
+//     const underDrive = makeLessThan(16);
+//     const isPhone = makeLessThan(12);
+
+
+// 94 Callbacks:
+
+function grumpus(){
+    alert("Gahhh go AwaY!")
 }
-
-
-
-
+setTimeout(grumpus, 5000)
 
 
