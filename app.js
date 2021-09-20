@@ -732,9 +732,18 @@ let day = 17;
 
 // 94 Callbacks:
 
-function grumpus(){
-    alert("Gahhh go AwaY!")
-}
-setTimeout(grumpus, 5000)
+// function grumpus(){
+//     alert("Gahhh go AwaY!")
+// }
+// setTimeout(grumpus, 5000)
 
+const numbers = [1,2,3,4,5,6,7,8];
+numbers.forEach(function (num){
+  console.log(num * 2) ;
+})
+
+function printTriple(n){
+  console.log(n*3)
+}
+numbers.forEach(printTriple);
 
