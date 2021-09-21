@@ -737,13 +737,32 @@ let day = 17;
 // }
 // setTimeout(grumpus, 5000)
 
-const numbers = [1,2,3,4,5,6,7,8];
-numbers.forEach(function (num){
-  console.log(num * 2) ;
+// const numbers = [1,2,3,4,5,6,7,8];
+// numbers.forEach(function (num){
+//   console.log(num * 2) ;
+// })
+
+// function printTriple(n){
+//   console.log(n*3)
+// }
+// numbers.forEach(printTriple);
+
+// 98 Map
+
+const numbers = [1,2,3,4,5,6];
+const words = ["diy","fyi","lol","asap"];
+
+const doubles = numbers.map(function(num){
+  return num * 2;
+});
+
+const numDetail = numbers.map(function(n){
+return{
+  value: n,
+  isEven: n % 2 === 0
+}
 })
 
-function printTriple(n){
-  console.log(n*3)
-}
-numbers.forEach(printTriple);
-
+const abbreves = words.map(function(word){
+  return word.toUpperCase().split('').join('.');
+})
