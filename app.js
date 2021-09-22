@@ -749,20 +749,56 @@ let day = 17;
 
 // 98 Map
 
-const numbers = [1,2,3,4,5,6];
-const words = ["diy","fyi","lol","asap"];
+// const numbers = [1,2,3,4,5,6];
+// const words = ["diy","fyi","lol","asap"];
 
-const doubles = numbers.map(function(num){
-  return num * 2;
-});
+// const doubles = numbers.map(function(num){
+//   return num * 2;
+// });
 
-const numDetail = numbers.map(function(n){
-return{
-  value: n,
-  isEven: n % 2 === 0
-}
-})
+// const numDetail = numbers.map(function(n){
+// return{
+//   value: n,
+//   isEven: n % 2 === 0
+// }
+// })
 
-const abbreves = words.map(function(word){
-  return word.toUpperCase().split('').join('.');
-})
+// const abbreves = words.map(function(word){
+//   return word.toUpperCase().split('').join('.');
+// })
+
+// 100 => inplicit returns
+
+// const square = n =>{
+//   return n*n;
+// }
+
+// const square = n => (
+//   n * n
+// )
+// const square = n => n * n;
+
+// const nums = [1,2,3,4,5,6,7,8,9];
+
+// const doubles1 = nums.map(function(n){
+//   return n*2;
+// })
+// c
+
+// const doubles2 = nums.map(n => {
+//   return n*2;
+// })
+
+// const doubles3 = nums.map(n => n*2)
+
+// // const parityList = nums.map(function(n){
+// //   if(n % 2 === 0) return 'even';
+// //   return 'odd';
+// // })
+// // const parityList = nums.map(n => {
+// //   if(n % 2 === 0) return 'even';
+// //   return 'odd';
+// // })
+// const parityList = nums.map((n) => (
+//    n % 2 === 0 ? 'even' : 'odd'
+// ));
