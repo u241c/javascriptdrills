@@ -910,3 +910,8 @@ let day = 17;
 // const descSort = prices.sort((a, b)=> a - b);
 
 //105. reduce intro
+
+// const nums = [3,4,5,6,7];
+// nums.reduce((total, currentVal) => {
+//   return total * currentVal;
+// });
