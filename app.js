@@ -915,3 +915,8 @@ let day = 17;
 // nums.reduce((total, currentVal) => {
 //   return total * currentVal;
 // });
+
+//109
+function multiply(x, y){
+  return x * y;
+}
