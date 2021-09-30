@@ -917,6 +917,59 @@ let day = 17;
 // });
 
 //109
-function multiply(x, y){
-  return x * y;
+// function multiply(x, y){
+//   if (typeof y === 'undefined'){
+//     y = 1;
+//   }
+//   return x * y;
+// }
+
+// 110. spread for function calls
+// spread removes [] spread is id by (... )
+
+// 112. spread in object literals
+const feline = {
+  legs: 4,
+  family: 'Felidae'
+};
+
+const canine = {
+  family: 'Caninae',
+  furry: true,
+  legs: 4
+};
+
+const dog = {
+  ...canine,
+  isPet: true,
+  adorable: true
 }
+//{family: "Caninae", furry: true, legs: 4, isPet: true, adorable: true}
+
+const houseCat = {
+  ...feline,
+  isGrumpy: true,
+  personality: 'unpredictable'
+}
+//{legs: 4, family: "Felidae", isGrumpy: true, personality: "unpredictable"}
+
+const catDog = {
+  ...canine,
+  ...feline
+}
+//{family: "Felidae", furry: true, legs: 4}
+
+//Order matters! Legs will be 3 here, because we set it AFTER spreading canine.
+const tripod = {
+  ...canine,
+  legs: 3,
+}
+//{family: "Caninae", furry: true, legs: 3}
+
+const catDogClone = {
+  ...catDog
+}
+
+const random = [...'hello', {
+  ...catDog
+}]
