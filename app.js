@@ -928,48 +928,15 @@ let day = 17;
 // spread removes [] spread is id by (... )
 
 // 112. spread in object literals
-const feline = {
-  legs: 4,
-  family: 'Felidae'
-};
+// 
 
-const canine = {
-  family: 'Caninae',
-  furry: true,
-  legs: 4
-};
+// function sum(){
+//   const argsArr = [...arguments]
+//   return argsArr.reduce((total, currVal) => {
+//     return total + currVal
+//   })
+// }
 
-const dog = {
-  ...canine,
-  isPet: true,
-  adorable: true
-}
-//{family: "Caninae", furry: true, legs: 4, isPet: true, adorable: true}
-
-const houseCat = {
-  ...feline,
-  isGrumpy: true,
-  personality: 'unpredictable'
-}
-//{legs: 4, family: "Felidae", isGrumpy: true, personality: "unpredictable"}
-
-const catDog = {
-  ...canine,
-  ...feline
-}
-//{family: "Felidae", furry: true, legs: 4}
-
-//Order matters! Legs will be 3 here, because we set it AFTER spreading canine.
-const tripod = {
-  ...canine,
-  legs: 3,
-}
-//{family: "Caninae", furry: true, legs: 3}
-
-const catDogClone = {
-  ...catDog
-}
-
-const random = [...'hello', {
-  ...catDog
-}]
+// function fullName(first, last,){
+//   console.log(arguments)
+// }
