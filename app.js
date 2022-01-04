@@ -983,3 +983,4 @@ function drawCard(deck){
 
 const myDeck = makeDeck();
 const card1 = drawCard(myDeck);
+// understand concepts
