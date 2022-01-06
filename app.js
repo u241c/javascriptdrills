@@ -981,6 +981,6 @@ function drawCard(deck){
   return deck.pop()
 }
 
-const myDeck = makeDeck();
-const card1 = drawCard(myDeck);
+const myDeck = makeDeck()
+const card1 = drawCard(myDeck)
 // understand concepts
