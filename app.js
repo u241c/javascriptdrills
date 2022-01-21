@@ -947,7 +947,9 @@ let day = 17;
 //   const max = Math.max(...arr);
 //   const min = Math.min(...arr);
 //   const sum = arr.reduce((sum, r) => sum + r);
-  const avg = sum / arr.length;
+  // const avg = sum / arr.length;
+
+  //100 day challenge
 
 return {
   max: max,
