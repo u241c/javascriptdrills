@@ -951,12 +951,12 @@ let day = 17;
 
   //100 day challenge
 
-return {
-  max: max,
-  min: min,
-  sum: sum,
-  avg: avg,
-}
+// return {
+//   max: max,
+//   min: min,
+//   sum: sum,
+//   avg: avg,
+// }
 // }
 // const reviews = [4.5, 5.0, 3.44, 2.8, 3.5, 4.0, 3.5];
 
@@ -964,28 +964,30 @@ return {
 
 // 127. putting it together
 
-function makeDeck() {
-  const deck = [];
-  const suits = ['hearts', 'diamonds', 'spades', 'clubs'];
-  const values = '2,3,4,5,6,7,8,9,10, J,Q,K,A';
-  for(let value of values.split(',')) {
-    for(let suit of suits) {
-      deck.push({
-      value,
-      suit
-    })
-  }
-}
-return deck;
-}
+// function makeDeck() {
+//   const deck = [];
+//   const suits = ['hearts', 'diamonds', 'spades', 'clubs'];
+//   const values = '2,3,4,5,6,7,8,9,10, J,Q,K,A';
+//   for(let value of values.split(',')) {
+//     for(let suit of suits) {
+//       deck.push({
+//       value,
+//       suit
+//     })
+//   }
+// }
+// return deck;
+// }
 
-function drawCard(deck){
-  return deck.pop()
-}
+// function drawCard(deck){
+//   return deck.pop()
+// }
 
-const myDeck = makeDeck();
-const card1 = drawCard(myDeck);
+// const myDeck = makeDeck();
+// const card1 = drawCard(myDeck);
 // understand concepts
 
-// Let and Const are keywords to start with among many others reserved word as part of syntax of the programming language.
+// Let and Const are keywords to start with among many others reserved word as part of syntax of the programming language. reserved words included for, await, break, true, false, catch, etc....
 
+// variable name followed and has a camal casing, that is followed with a value. 
+// example: let age = 49; keyword variable = value;
