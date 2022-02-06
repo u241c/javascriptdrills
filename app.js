@@ -986,3 +986,6 @@ function drawCard(deck){
 const myDeck = makeDeck();
 const card1 = drawCard(myDeck);
 // understand concepts
+
+// Let and Const are keywords to start with among many others reserved word as part of syntax of the programming language.
+
