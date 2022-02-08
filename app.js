@@ -991,3 +991,9 @@ let day = 17;
 
 // variable name followed and has a camal casing, that is followed with a value. 
 // example: let age = 49; keyword variable = value;
+
+// Unary Operators worked in JS Console. Have one side. For example age++; adding just one to the value of age. Same for subtraction age--; subracting one from the value of age.
+//Updating numerical value. Instead of: variable = variable + #;
+// 1stvariable += # 0r 2ndVariableName; Note: there is now a New 1stvariable value: While the 2nd remain the same in value. Also use -, *, /
+
+//Strings 17. vid run
