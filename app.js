@@ -997,4 +997,4 @@ let day = 17;
 // 1stvariable += # 0r 2ndVariableName; Note: there is now a New 1stvariable value: While the 2nd remain the same in value. Also use -, *, /
 
 //Strings 17. vid run
-// Strings with method.      thing.method() we cannot change any character manually.
+// Strings with method.      thing.method() we cannot change any character manually. Quest to find out what () represents thing.trim().toUpperCase()
