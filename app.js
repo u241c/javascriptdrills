@@ -1000,3 +1000,4 @@ let day = 17;
 // Strings with method.      thing.method() we cannot change any character manually. Quest to find out what () represents thing.trim().toUpperCase()
 //thing.method() Method is just the action upper this lower that 
 //but some methods require additional infor. REPLACE()  What are we replacing, what are we replacing it with. or the use of indexOf. practice
+// 54  i  und LONDON CALLING   todd@gmail.com  6 7
