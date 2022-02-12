@@ -1002,4 +1002,7 @@ let day = 17;
 //but some methods require additional infor. REPLACE()  What are we replacing, what are we replacing it with. or the use of indexOf. practice
 // 54  i  und LONDON CALLING   todd@gmail.com  6 7
 
-// String template Literals:
+// String template Literals: Use of `` characters around the string. using the back tick`` can be used with all strings regardless.    What we really do is imbed information in template literals with 
+//`${}` whatever is inside the curry braces will be ran first. Note that it will turn into a string once it is finished. `Give ${3 * 2}` turn into "Give 6" 
+// when using method you must apply () and the end for example `${value.uppercase()}`
+// whatever is inside the curly braces is treated as Javascript and turned into string.
