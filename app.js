@@ -1006,3 +1006,6 @@ let day = 17;
 //`${}` whatever is inside the curry braces will be ran first. Note that it will turn into a string once it is finished. `Give ${3 * 2}` turn into "Give 6" 
 // when using method you must apply () and the end for example `${value.uppercase()}`
 // whatever is inside the curly braces is treated as Javascript and turned into string.
+
+
+// Math.yada yada yada  typeof lets you know the type of a given value
