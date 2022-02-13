@@ -1009,3 +1009,4 @@ let day = 17;
 
 
 // Math.yada yada yada  typeof lets you know the type of a given value
+// make sure to just use the === 99.99999999 of the time.
