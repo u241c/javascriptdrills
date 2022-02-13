@@ -59,7 +59,7 @@
 // }
 
 // the switch statement
-let day = 17;
+//let day = 17;
 
 // if(day === 1){
 //     console.log("Monday");
@@ -1009,4 +1009,8 @@ let day = 17;
 
 
 // Math.yada yada yada  typeof lets you know the type of a given value
-// make sure to just use the === 99.99999999 of the time.
+// make sure to just use the === (equal) or !== (not equal) 99.99999999 of the time.
+console.log(3+4);
+
+
+
