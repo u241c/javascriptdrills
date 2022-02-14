@@ -23,3 +23,12 @@
 // else {
 //     console.log('Invalid Password.')
 // }
+
+//Truthy & Falsy to check which is which depends on the value you use.
+// let keyChain = 10;
+// if (keyChain){
+    //console.log('truthy');
+//}
+//else {
+    //console.log('falsy');
+//}       Value 10 is truthy, however if placed a value of NaN, 0, empty string, false, undefined will come out falsy.
