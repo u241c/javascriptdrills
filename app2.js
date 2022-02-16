@@ -11,19 +11,6 @@
 // }
 
 
-// let password = 'Hello hgjgjk';
-
-// if (password.length >= 6){
-//     if (password.indexOf (' ') === -1 );{
-//     console.log("Valid Password");
-// }
-// else if(password.indexOf(' ') !== -1)
-//     console.log('No spaces allowed.')
-// }
-// else {
-//     console.log('Invalid Password.')
-// }
-
 //Truthy & Falsy to check which is which depends on the value you use.
 // let keyChain = 10;
 // if (keyChain){
@@ -32,3 +19,17 @@
 //else {
     //console.log('falsy');
 //}       Value 10 is truthy, however if placed a value of NaN, 0, empty string, false, undefined will come out falsy.
+
+let loggin = 'Hellokitty';
+
+if (loggin.length >= 6){
+    if(loggin.indexOf (' ') !== -1) {
+        console.log('No Spaces');
+}
+else{
+    console.log('Valid');
+}
+}
+else{
+    console.log('Invalid Password');
+}
