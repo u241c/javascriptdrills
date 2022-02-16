@@ -64,21 +64,33 @@
 // }
 
 
-let crue = 0;
+// let crue = 0;
 
-switch(crue){
-    case 0:
-    console.log('Nikki');
-    break;
-    case 1:
-    console.log('Tommy');
-    break;
-    case 2:
-    console.log('Vince');
-    break;
-    case 3:
-    console.log('Mick');
-    break;
-    default: 
-    console.log('Whoooo!');
-}
+// switch(crue){
+//     case 0:
+//     console.log('Nikki');
+//     break;
+//     case 1:
+//     console.log('Tommy');
+//     break;
+//     case 2:
+//     console.log('Vince');
+//     break;
+//     case 3:
+//     console.log('Mick');
+//     break;
+//     default: 
+//     console.log('Whoooo!');
+// }
+
+// learning ternary Operators 
+let rain = 2;
+
+// if (rain === 3){
+//     console.log('Pouring');
+// }
+// else{
+//     console.log('Invalid entry');
+// }
+
+rain === 3 ? console.log('Pouring') : console.log('Invalid entry')
