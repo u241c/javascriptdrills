@@ -84,13 +84,97 @@
 // }
 
 // learning ternary Operators 
-let rain = 2;
+// let rain = 2;
 
-// if (rain === 3){
-//     console.log('Pouring');
-// }
-// else{
-//     console.log('Invalid entry');
+// // if (rain === 3){
+// //     console.log('Pouring');
+// // }
+// // else{
+// //     console.log('Invalid entry');
+// // }
+// rain === 3 ? console.log('Pouring') : console.log('Invalid entry')
+
+
+
+// let kids = 1;
+// switch(kids) {
+//     case 0:
+//         console.log('Savannah');
+//         break;
+//     case 1:
+//         console.log('Danyah');
+//         break;   
+        
+//     case 2:
+//         console.log('Salma');
+//         break;
+//     default:
+//         console.log('NONONON!')        
 // }
 
-rain === 3 ? console.log('Pouring') : console.log('Invalid entry')
+
+
+// let months = 59;
+
+// switch(months){
+//     case 0:
+//         console.log('January');
+//         break;
+
+//     case 1:
+//         console.log('Febuary');
+//         break;
+
+//     case 2:
+//         console.log('March');
+//         break;
+
+//     case 3:
+//         console.log('April');
+//         break;
+
+//     case 4:
+//         console.log('May');
+//         break;
+
+//     case 5:
+//         console.log('June');
+//         break;
+
+//     case 6:
+//         console.log('July');
+//         break;
+
+//     case 7:
+//         console.log('August');
+//         break;
+
+//     case 8:
+//         console.log('September');
+//         break;
+
+//     case 9:
+//         console.log('October');
+//         break;
+
+//     case 10:
+//         console.log('November');
+//         break;
+
+//     case 11:
+//         console.log('December');
+//         break;
+
+//     default:
+//        console.log("Doesn't exist")
+// }
+
+// let strings = 10;
+// // if(strings === 6){
+// //     console.log('Lets Rock!');
+// // }
+// // else{
+// //     console.log('No Rock for you!');
+// // }
+
+// strings === 6 ? console.log('Lets Rock!') : console.log('No Rock for you!');
