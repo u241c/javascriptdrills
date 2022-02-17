@@ -4,3 +4,6 @@
 //learning to modifie arrays 
 
 
+// let newArray = [1, 3, 20.00, 'sign'];
+
+// learning conta
