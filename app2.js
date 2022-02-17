@@ -178,5 +178,5 @@
 // // }
 // strings === 6 ? console.log('Lets Rock!') : console.log('No Rock for you!');
 
-// Arrays thing of arrays as an empty pill box. 
+// Arrays think of arrays as an empty pill box. 
 // const roomList = [guitar, wicker chair, computer, desk, printer];
