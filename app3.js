@@ -8,7 +8,7 @@
 // let veg = ['lettus', 'tomato'];
 // let bread = ['sour doagh', 'french'];  // let allFoods = (fruits.concat(veg, bread));
 
-let crue = ['live wire', 'dr. feelgood'];
-let ratt = ['Dance', 'lay it down'];
-let extreme = ['more than', 'monster'];
-let allSongs= (crue.concat(ratt, extreme));
+// let crue = ['live wire', 'dr. feelgood'];
+// let ratt = ['Dance', 'lay it down'];
+// let extreme = ['more than', 'monster'];
+// let allSongs= (crue.concat(ratt, extreme));
