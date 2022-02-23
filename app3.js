@@ -14,4 +14,8 @@
 // let allSongs= (crue.concat(ratt, extreme));
 
 
-let people = ['e', 'd','a', 'r', 't'];
+// let people = ['e', 'd','a', 'r', 't'];
+
+// when using the slice method is quite like using a trimming example
+// let animal = ['bear','dog', 'cat'];
+// animal.slice(0, 2)  'bear', 'dog' will appear
