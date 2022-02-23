@@ -14,3 +14,4 @@
 // let allSongs= (crue.concat(ratt, extreme));
 
 
+let people = ['e', 'd','a', 'r', 't'];
