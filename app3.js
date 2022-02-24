@@ -19,3 +19,5 @@
 // when using the slice method is quite like using a trimming example
 // let animal = ['bear','dog', 'cat'];
 // animal.slice(0, 2)  'bear', 'dog' will appear
+
+// working with const in an Array. the reference in const is unable to change. but you can change what is inside the array in const. NOTE the reference never changes. So using push, pop, shift, and notshift are good to use. 
