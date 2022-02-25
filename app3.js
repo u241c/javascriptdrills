@@ -22,4 +22,7 @@
 
 // working with const in an Array. the reference in const is unable to change. but you can change what is inside the array in const. NOTE the reference never changes. So using push, pop, shift, and unshift are good to use. 
 
-
+// creating objects
+//example: const foodBar = {
+//     key(name): value,
+// };
