@@ -26,3 +26,8 @@
 //example: const foodBar = {
 //     key(name): value,
 // };
+const userReviews = {}
+userReviews['queenbee'] = 4.5;
+userReviews.drFeelgood = 2.0;
+userReviews.drFeelgood += 2;
+userReviews['queenbee'] -= 2;
