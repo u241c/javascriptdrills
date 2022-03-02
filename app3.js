@@ -41,4 +41,4 @@
 //  or how to access value would look like:
 //  student.strength[1] would be "music"
 
-// when you have two or more different key, however they all have the same array values, it is still FALSE. Why? because of the reference # is different for each key.
+// when you have two or more different key, however they all have the same array values, it is still FALSE. Why? because of the reference # is different for each key. they different in memory.
